@@ -49,6 +49,11 @@ function App() {
               }>Disconnect</Button>}
           </Grid>
         </Grid>
+        <div>
+          <p>User id: </p>
+          <p id='accountid'></p>
+          <p>My account: {currentAccount}</p>
+        </div>
 
       </header>
     </div>
